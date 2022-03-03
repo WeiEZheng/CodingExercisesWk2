@@ -2,47 +2,78 @@ public class Solution {
   
   // use this method as a prototype for your answers...
   void soln1() {
-  // and put your code here.
+    for (int i = 100; i>=5; i-=5){
+      System.out.println(i);
+    }
   }
   
-  void soln2() {
-  // and put your code here.
-  }
+  void soln2() {for (int i=100; i>=5;i-=5){}}
   
   void soln3() {
-  // and put your code here.
+    int sum=0;
+    for (int i =9;i<=17;i++){sum+=i}
   }
   
   void soln4() {
-  // and put your code here.
+    int [] a = {9, 5, 6, 3, 8, 2, 4};
+    int Smallnum=a[0];
+    for (int i =1;i< a.length;i++){
+      if (a[i]<Smallnum) Smallnum=a[i];
+    }
+    System.out.println(Smallnum);
   }
   
   void soln5() {
-  // and put your code here.
+    int [] a = {9, 5, 6, 3, 8, 2, 4};
+    int largenum=a[0];
+    for (int i =1;i< a.length;i++){
+      if (a[i]>largenum) largenum=a[i];
+    }
+    System.out.println(largenum);
   }
   
   void soln6() {
-  // and put your code here.
+    Boolean [] a ={false, false, false, true, false};
+    int index=0;
+    for (int i=0;i<a.length;i++){
+      if (a[i]==true) {
+        System.out.println(index);
+        break;
+      }
+    }
+
   }
   
   void soln7() {
-  // and put your code here.
+    Boolean [] a = {false, false, false, true, false};
+    int index=0;
+    while (a[index]==false){
+      index++;
+    }
+    System.out.println(index);
   }
   
   void soln8() {
-  // and put your code here.
+    int[]  a = {9, 5, 6, 3, 8, 2, 4};
+    for (int i=0;i<a.length;i++){
+      a[i]+=5;
+    }
   }
   
   void soln9() {
-  // and put your code here.
+    double[] a = {0.5, 1.4, 6.7, 123.4 -34.6};
+    for (int i=0; i<a.length;i++){
+      a[i]/=1.3;
+    }
   }
   
   void soln10() {
-  // and put your code here.
+    double[] a = {1.3, 5.4, 6.1, 1.0, 9.2};
+
   }
   
   void soln11() {
-  // and put your code here.
+
   }
   
   void soln12() {
